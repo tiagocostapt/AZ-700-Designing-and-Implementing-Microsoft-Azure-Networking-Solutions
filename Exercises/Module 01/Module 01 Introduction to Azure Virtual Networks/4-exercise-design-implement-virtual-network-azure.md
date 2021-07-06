@@ -105,13 +105,13 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
 1. On the Azure Portal home page, select **Create a resource**.
 
-2. In **Search services and marketplace**, enter virtual network.  
+1. In **Search services and marketplace**, enter virtual network.  
    ‎![Azure Portal Create a resource page with Search services and marketplace box highlighted.](../media/create-resource-search-virtual-network-annotated.png)
 
-3. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
+1. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
    ‎![Virtual Network tile with Create Virtual network highlighted.](../media/virtual-network-service-annotated.png)
 
-4. Use the information in the following table to create the ManufacturingVnet virtual network.
+1. Use the information in the following table to create the ManufacturingVnet virtual network.
 
 | **Tab**      | **Option**         | **Value**             |
 | ------------ | ------------------ | --------------------- |
@@ -121,9 +121,9 @@ These virtual networks and subnets are structured in a way that accommodates exi
 | IP Addresses | IPv4 address space | 10.30.0.0/16          |
 
 
-5. Use the information in the following table to create the ManufacturingVnet subnets.
+1. Use the information in the following table to create the ManufacturingVnet subnets.
 
-6. To begin creating each subnet, select **+ Add subnet**. To finish creating each subnet, select **Add**.
+1. To begin creating each subnet, select **+ Add subnet**. To finish creating each subnet, select **Add**.
 
 | **Subnet**                | **Option**           | **Value**                 |
 | ------------------------- | -------------------- | ------------------------- |
@@ -137,9 +137,9 @@ These virtual networks and subnets are structured in a way that accommodates exi
 |                           | Subnet address range | 10.30.22.0/24             |
 
 
-7. To finish creating the ManufacturingVnet and its associated subnets, select **Review + create**.
+1. To finish creating the ManufacturingVnet and its associated subnets, select **Review + create**.
 
-8. Verify your configuration passed validation, and then select **Create**.
+1. Verify your configuration passed validation, and then select **Create**.
 
  
 
@@ -147,18 +147,24 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
 1. On the Azure Portal home page, select **Create a resource**.
 
-2. In **Search services and marketplace**, enter virtual network.  
+1. In **Search services and marketplace**, enter virtual network.  
    ‎![Azure Portal Create a resource page with Search services and marketplace box highlighted.](../media/create-resource-search-virtual-network-annotated.png)
 
-3. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
+1. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
    ‎![Virtual Network tile with Create Virtual network highlighted.](../media/virtual-network-service-annotated.png)
 
-4. Use the information in the following table to create the ResearchVnet virtual network.
+1. Use the information in the following table to create the ResearchVnet virtual network.
 
+| **Tab**      | **Option**         | **Value**            |
+| ------------ | ------------------ | -------------------- |
+| Basics       | Resource Group     | ContosoResourceGroup |
+|              | Name               | ResearchVnet         |
+|              | Region             | West India           |
+| IP Addresses | IPv4 address space | 10.40.0.0/16         |
 
-5. Use the information in the following table to create the ResearchVnet subnet.
+1. Use the information in the following table to create the ResearchVnet subnet.
 
-6. To begin creating the subnet, select **+ Add subnet**. To finish creating the subnet, select **Add**.
+1. To begin creating the subnet, select **+ Add subnet**. To finish creating the subnet, select **Add**.
 
 | **Subnet**           | **Option**           | **Value**            |
 | -------------------- | -------------------- | -------------------- |
@@ -166,9 +172,9 @@ These virtual networks and subnets are structured in a way that accommodates exi
 |                      | Subnet address range | 10.40.40.0/24        |
 
 
-7. To finish creating the ResearchVnet and its associated subnet, select **Review + create**.
+1. To finish creating the ResearchVnet and its associated subnet, select **Review + create**.
 
-8. Verify your configuration passed validation, and then select **Create**.
+1. Verify your configuration passed validation, and then select **Create**.
 
  
 
@@ -178,20 +184,20 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
    ![Azure portal home page with All resources highlighted.](../media/azure-portal-home-page-all-resources-annotated.png)
 
-2. Verify that the CoreServicesVnet, ManufacturingVnet, and ResearchVnet are listed. Your list should look like this:
+1. Verify that the CoreServicesVnet, ManufacturingVnet, and ResearchVnet are listed. Your list should look like this:
 
    ![All resources list with CoreServicesVnet, ManufacturingVnet, and ResearchVnet highlighted.](../media/all-resources-list-annotated.png)
 
-3. Note that Azure creates NetworkWatchers for each region that you use.
+1. Note that Azure creates NetworkWatchers for each region that you use.
 
-4. Select **CoreServicesVnet**. 
+1. Select **CoreServicesVnet**. 
 
-5. In CoreServicesVnet, under **Settings**, select **Subnets**.
+1. In CoreServicesVnet, under **Settings**, select **Subnets**.
 
-6. In CoreServicesVnet | Subnets, verify that the subnets you created are listed, and that the IP address ranges are correct.
+1. In CoreServicesVnet | Subnets, verify that the subnets you created are listed, and that the IP address ranges are correct.
 
    ![List of subnets in CoreServicesVnet.](../media/verify-subnets-annotated.png)
 
-7. Repeat steps 4 -6 for each subnet.
+1. Repeat steps 4 -6 for each subnet.
 
 Congratulations! You have successfully created a resource group, three VNets, and their associated subnets. 
