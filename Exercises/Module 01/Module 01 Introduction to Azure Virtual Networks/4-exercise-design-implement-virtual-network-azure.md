@@ -60,8 +60,6 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
 1. In Resource groups, verify that **ContosoResourceGroup** appears in the list.
 
- 
-
 ## Create the CoreServicesVnet virtual network and subnets
 
 1. On the Azure Portal home page, select **Create a resource**.
