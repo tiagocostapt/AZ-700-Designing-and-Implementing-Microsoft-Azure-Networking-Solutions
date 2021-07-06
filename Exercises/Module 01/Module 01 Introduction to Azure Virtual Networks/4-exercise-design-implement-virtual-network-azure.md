@@ -43,13 +43,9 @@ These virtual networks and subnets are structured in a way that accommodates exi
 ## Create the Contoso resource group
 
 1. Go to [Azure Portal](https://portal.azure.com/).
-
 1. On the home page, under **Azure services**, select **Resource groups**.
-
    ‎![Azure portal home page with Resource groups highlighted.](../media/azure-portal-home-page-annotated.png)
-
 1. In Resource groups, select **+ Create**.
-
 1. Use the information in the following table to create the resource group.
 
 | **Tab**         | **Option**                                 | **Value**            |
@@ -58,7 +54,6 @@ These virtual networks and subnets are structured in a way that accommodates exi
 |                 | Region                                     | (US) West US         |
 | Tags            | No changes required                        |                      |
 | Review + create | Review your settings and select **Create** |                      |
-
 1. In Resource groups, verify that **ContosoResourceGroup** appears in the list.
 
 ## Create the CoreServicesVnet virtual network and subnets
