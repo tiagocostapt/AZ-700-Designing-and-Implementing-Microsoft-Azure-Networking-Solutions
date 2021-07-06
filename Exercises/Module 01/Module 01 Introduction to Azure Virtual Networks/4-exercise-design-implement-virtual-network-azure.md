@@ -44,12 +44,12 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
 1. Go to [Azure Portal](https://portal.azure.com/).
 
-2. On the home page, under **Azure services**, select **Resource groups**.  
+1. On the home page, under **Azure services**, select **Resource groups**.  
    ‎![Azure portal home page with Resource groups highlighted.](../media/azure-portal-home-page-annotated.png)
 
-3. In Resource groups, select **+ Create**.
+1. In Resource groups, select **+ Create**.
 
-4. Use the information in the following table to create the resource group.
+1. Use the information in the following table to create the resource group.
 
 | **Tab**         | **Option**                                 | **Value**            |
 | --------------- | ------------------------------------------ | -------------------- |
@@ -59,18 +59,18 @@ These virtual networks and subnets are structured in a way that accommodates exi
 | Review + create | Review your settings and select **Create** |                      |
 
 
-5. In Resource groups, verify that **ContosoResourceGroup** appears in the list.
+1. In Resource groups, verify that **ContosoResourceGroup** appears in the list.
 
  
 
 ## Create the CoreServicesVnet virtual network and subnets
 
 1. On the Azure Portal home page, select **Create a resource**.
-2. In **Search services and marketplace**, enter virtual network.  
+1. In **Search services and marketplace**, enter virtual network.  
    ‎![Azure Portal Create a resource page with Search services and marketplace box highlighted.](../media/create-resource-search-virtual-network-annotated.png)
-3. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
+1. In Marketplace, in Virtual Network, select **Create &gt; Virtual network**.  
    ‎![Virtual Network tile with Create Virtual network highlighted.](../media/virtual-network-service-annotated.png)
-4. Use the information in the following table to create the CoreServicesVnet virtual network.  
+1. Use the information in the following table to create the CoreServicesVnet virtual network.  
    ‎Remove or overwrite the default IP Address space![ip address configuration for azure virtual network deployment ](../media/default-vnet-ip-address-range-annotated.png)
 
  
@@ -82,9 +82,8 @@ These virtual networks and subnets are structured in a way that accommodates exi
 |              | Region             | (US) West US         |
 | IP Addresses | IPv4 address space | 10.20.0.0/16         |
 
- 5.Use the information in the following table to create the CoreServicesVnet subnets.
-
- 6.To begin creating each subnet, select **+ Add subnet**. To finish creating each subnet, select **Add**.
+1. Use the information in the following table to create the CoreServicesVnet subnets.
+1. To begin creating each subnet, select **+ Add subnet**. To finish creating each subnet, select **Add**.
 
 | **Subnet**             | **Option**           | **Value**              |
 | ---------------------- | -------------------- | ---------------------- |
@@ -97,9 +96,8 @@ These virtual networks and subnets are structured in a way that accommodates exi
 | PublicWebServiceSubnet | Subnet name          | PublicWebServiceSubnet |
 |                        | Subnet address range | 10.20.30.0/24          |
 
- 7.To finish creating the CoreServicesVnet and its associated subnets, select **Review + create**.
-
- 8.Verify your configuration passed validation, and then select **Create**.
+1. To finish creating the CoreServicesVnet and its associated subnets, select **Review + create**.
+1. Verify your configuration passed validation, and then select **Create**.
 
  
 
