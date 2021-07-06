@@ -58,7 +58,6 @@ These virtual networks and subnets are structured in a way that accommodates exi
 | Tags            | No changes required                        |                      |
 | Review + create | Review your settings and select **Create** |                      |
 
-
 1. In Resource groups, verify that **ContosoResourceGroup** appears in the list.
 
  
