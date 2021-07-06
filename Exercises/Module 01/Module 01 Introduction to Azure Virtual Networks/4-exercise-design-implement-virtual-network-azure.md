@@ -44,7 +44,8 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
 1. Go to [Azure Portal](https://portal.azure.com/).
 
-1. On the home page, under **Azure services**, select **Resource groups**.  
+1. On the home page, under **Azure services**, select **Resource groups**.
+
    ‎![Azure portal home page with Resource groups highlighted.](../media/azure-portal-home-page-annotated.png)
 
 1. In Resource groups, select **+ Create**.
