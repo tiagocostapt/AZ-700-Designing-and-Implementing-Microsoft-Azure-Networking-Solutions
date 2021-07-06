@@ -47,7 +47,6 @@ These virtual networks and subnets are structured in a way that accommodates exi
    ‎![Azure portal home page with Resource groups highlighted.](../media/azure-portal-home-page-annotated.png)
 1. In Resource groups, select **+ Create**.
 1. Use the information in the following table to create the resource group.
-
 | **Tab**         | **Option**                                 | **Value**            |
 | --------------- | ------------------------------------------ | -------------------- |
 | Basics          | Resource group                             | ContosoResourceGroup |
