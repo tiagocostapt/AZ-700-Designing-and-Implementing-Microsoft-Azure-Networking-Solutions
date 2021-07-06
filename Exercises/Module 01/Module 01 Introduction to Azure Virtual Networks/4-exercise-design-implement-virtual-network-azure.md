@@ -198,6 +198,6 @@ These virtual networks and subnets are structured in a way that accommodates exi
 
    ![List of subnets in CoreServicesVnet.](../media/verify-subnets-annotated.png)
 
-1. Repeat steps 4 -6 for each subnet.
+1. Repeat steps 4 -6 for each virtual network.
 
 Congratulations! You have successfully created a resource group, three VNets, and their associated subnets. 
